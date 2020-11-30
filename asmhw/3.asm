@@ -17,14 +17,15 @@ _start:
     mov ecx, 0
     mov edx, 0
 nextchr:
-    mov bl, [sinput+ecx]
-    cmp bl, 0 ; check if meet NULL
-    je terminate
-    inc ecx ; increase cnt
+    mov bl, [sinput+ecx] ; dereference sinput[ecx] into bl
+    cmp bl, 0
+    je terminate ; terminate if meet NULL
+    inc ecx ; increase counter
     cmp bl, 61h ; cmp s[i] with 61h - 'a'
     jl nextchr 
     cmp bl, 7Ah ; cmp s[i] with 7Ah 'z'
     jg nextchr
+    ; process lowercase letter
     sub bl, 32 ; convert letter from lowercase to uppercase
     mov [sinput+ecx-1], bl
     jmp nextchr
