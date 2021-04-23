@@ -1,8 +1,10 @@
 # x86 Assembly Learning
-*Resource: *
-	https://asmtutor.com/
-	https://www.cs.virginia.edu/~evans/cs216/guides/x86.html
-	https://beginners.re/
+*Resource:*
+
+- https://asmtutor.com/
+- https://www.cs.virginia.edu/~evans/cs216/guides/x86.html
+- https://beginners.re/
+
 ## Coding challenge
 **1. Hello world**
 > 	Print "Hello, world" to stdout
