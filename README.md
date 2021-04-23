@@ -16,7 +16,7 @@
 > 	Convert the input string to uppercase and print it out
 
 **4. Simple Addition**
-> 	Input two integer and print out their sum (sum doesnt exceed 32-bit length)
+> 	Input two integer and print out their sum (sum doesn\'t exceed 32-bit length)
 
 **5. ELF Header** (*Working on it*)
 > 	Replicate the "readelf -h" command behavior
